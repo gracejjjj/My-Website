@@ -1,0 +1,144 @@
+#wrapper {
+  position:fixed;
+  z-index:11;
+  background:inherit;
+}
+
+#style body {
+  z-index: 9;
+}
+
+#wrapper h1 {
+    font-size:300%;
+    font-family: Didot, Serif;
+    color:white;
+    text-align: center;
+    position:fixed;
+    top:3%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-bottom: 1px solid white;
+}
+
+.links {
+  list-style-type: none;
+  position: fixed;
+  top: 12%;
+  margin-left:15%;
+}
+
+.links li {
+  float: left;
+  margin-left:100px;
+}
+
+.links button {
+  font-family: Didot, Serif;
+  font-size: 170%;
+  color: white;
+  line-height: 1.2;
+  font-weight: 500;
+  background:none; 
+  border: 0px solid white; 
+}
+
+.links button:hover {
+  border:2px solid white;
+}
+
+.links .active button{
+  border: 2px solid white;
+}
+
+#projects {
+  margin-top:100%;
+  z-index:10;
+  overflow: auto;
+  position:relative;
+  background: rgba(250,250,250,.7);
+  background-repeat: none;
+}
+
+.project {
+  background-color:rgba(250,250,250,.9);
+  margin:100px;
+  overflow:hidden;
+}
+
+.project img {
+  margin-top:45px;
+  margin-left: 50px;
+  margin-right:30px;
+  margin-bottom: 30px;
+  float:left;
+  width:25%;
+  height:auto;
+}
+
+.project h2 {
+  padding-top:20px;
+  margin-left:350px;
+  font-size: 150%;
+}
+
+.project p {
+  margin-left:350px;
+  margin-right:50px;
+  position: relative;
+  line-height: 140%;
+  padding-bottom:50px;
+}
+
+#photoslide {
+  background-color:rgba(161, 208, 253, 0.5);
+  margin-left:100px;
+  margin-right:100px;
+  margin-bottom:100px;
+  overflow:hidden;
+}
+
+#photoslide img{
+  width:90%;
+  height:auto;
+}
+
+#research h2 {
+  text-align: center;
+  margin-left:0px;
+}
+
+#research p{
+  position: relative;
+  line-height: 140%;
+  margin-left:100px;
+  margin-right:100px;
+}
+
+#stroke h2 {
+  text-align: center;
+  margin-left:0px;
+}
+
+#stroke p{
+  position: relative;
+  line-height: 140%;
+  margin-left:100px;
+  margin-right:100px;
+  padding-bottom:0%;
+}
+
+#rummy p{
+  padding-bottom:0%;
+}
+
+#link {
+  margin-bottom:30px;
+  text-align: center;
+}
+
+.project a {
+  margin-left:100px;
+  font-size:140%;
+  padding-bottom:30px;
+  color: rgb(4, 0, 255)
+}

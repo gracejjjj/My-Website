@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./projects.css">
+
+</head>
+<style>
+    body {
+      background-image: url("me.png");
+      background-attachment: fixed;
+      background-size:cover;
+    }
+</style>
+
+<div id="wrapper">
+    <h1>GRACE M. JOHNSON</h1>  
+
+<!-- Nav -->
+<nav id="nav">
+    <ul class="links">
+        <li><a href="index.html"><button>About Me</button></a></li>
+        <li><a href="experience.html"><button>My Experience</button></a></li>
+        <li class="active"><a href="projects.html"><button>My Projects</button></a></li>
+    </ul>
+</nav>
+</div>
+
+
+<div id="projects">
+    <div id="website" class="project">
+        <img src="html.png"/>
+        <h2>
+            My Website!
+        </h2>
+    
+        <p>
+            This website was coded from scratch using html, CSS and JavaScript. I thought building a website would be a good
+            opportunity to enhance my profile as an applicant while also learning some new technical skills. 
+            It was my first real experience
+            with web development and front end development in general. I enjoy the creative aspects of web 
+            development and hope to continue to develop and add interesting features to my site.
+        </p>
+    </div>
+
+    <div id="research" class="project">
+        <h2>
+            Commuting Graph Research
+        </h2>
+        <p>
+            Below I've included snippets of my work from the math research I program I participated in last summer.
+             The colorful graphs were generated 
+            by the Python program we developed to model the commmuting graphs of finite matrix groups and rings.
+            After studying these groups and rings and their associated commuting graphs, we created and proved a final Theorem
+            which was broken up into four distinct propositions, the first of which I've included below.
+        </p>
+
+        <div id="photoslide">
+            <img src="graphs.png">
+            <img src="prop1.png">
+            <img src="prop2.png">
+        </div>
+    </div>
+
+    <div id="stroke" class="project">
+        <h2>
+            Machine Learning Final Project : Stroke Prediction
+        </h2>
+        <p>
+            Linked below is a Medium post published by myself and two of my peers on stroke prediction 
+            using various binary classifiers. Given that we were working under 
+            time, computational and data quality constraints, the expectation was not a perfectly accurate classifier. 
+            Rather, it was an opportunity to demonstrate understanding of the process of building and evaluating different
+            machine learning models - preprocessing data, tuning hyperparameters, understanding and evaluating different 
+            performance metrics, and identifying model shortcomings and ethical implications. 
+        </p>
+        <div id="link">
+            <a href="https://medium.com/@gmjohnso/stroke-prediction-using-various-binary-classifiers-d6799e29512b">
+                Stroke Prediction Medium Post
+            </a>
+        </div>
+    </div>
+
+    <div id="rummy" class="project">
+        <img src="cards.jpg">
+        <h2>
+            Gin Rummy Project
+        </h2>
+        <p>
+            For a CS final project in 2022, I built a 2-player, interactive game of the card game Gin Rummy in C++. 
+            The project was open ended and only required that we implement and link several different classes using C++. I 
+            love games of all kind, so I thought it would be a fun challenge to emulate one of my favorite card games using code!
+            The game is composed of four different classes:
+            a class to represent a collection of cards for the deck and player hands, the 'board'
+            (cards that have been discarded and are available to be picked up by a player), a class to represent the 'table'(cards that have been 
+            put down for points by either player) and finally a class for the game itself to execute the game and 
+            track player scores. The most challenging part of this project was catching all the edge
+            cases and making sure a player was blocked from playing an illegal move. I was very happy with how the game turned 
+            out given the time constraints of the project and was selected to present my project to the lecture at the end of the 
+            semester. 
+        </p>
+
+        <div id="link">
+            <a href="https://github.com/gracejjjj/102final-project.git">
+                Rummy Card Game GitHub Repo
+            </a>
+        </div>
+    </div>
+
+
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
