@@ -1,0 +1,99 @@
+#wrapper {
+    position:fixed;
+    z-index:11;
+    background:inherit;
+  }
+  
+  #style body {
+    z-index: 9;
+  }
+  
+  #wrapper h1 {
+      font-size:300%;
+      font-family: Didot, Serif;
+      color:white;
+      text-align: center;
+      position:fixed;
+      top:3%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      border-bottom: 1px solid white;
+  }
+  
+  .links {
+    list-style-type: none;
+    position: fixed;
+    top: 12%;
+    left:15%;
+  }
+  
+  .links li {
+    float: left;
+    margin-left:100px;
+  }
+  
+  .links button {
+    font-family: Didot, Serif;
+    font-size: 170%;
+    color: white;
+    line-height: 1.2;
+    font-weight: 500;
+    background:none; 
+    border: 0px solid white; 
+  }
+  
+  .links button:hover {
+    border:2px solid white;
+  }
+  
+  .links .active button{
+    border: 2px solid white;
+  }
+  
+  #about-me-images {
+    margin-top:100%;
+    z-index:10;
+    overflow: auto;
+    background: rgba(250,250,250,.7);
+    background-repeat: none;
+  }
+  
+  #intro p{
+    margin-left:80px;
+    margin-right:80px;
+    font-size: 120%;
+    line-height: 140%;
+  }
+  
+  .snippet {
+    background-color:rgba(250,250,250,.9);
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-right:100px;
+    margin-left:100px;
+    overflow:hidden;
+  }
+  
+  .snippet img {
+    margin-top:30px;
+    margin-left: 30px;
+    margin-right:30px;
+    margin-bottom: 30px;
+    float:left;
+    height:auto;
+    width:50%;
+  }
+  
+  .snippet p {
+    padding:20px;
+    position: relative;
+    line-height: 140%;
+    padding-bottom:50px;
+  }
+  
+  #cooking img {
+    width:30%;
+    height:auto;
+    margin:30px;
+  }
+  
