@@ -24,7 +24,7 @@
   list-style-type: none;
   position: fixed;
   top: 12%;
-  margin-left:15%;
+  margin-left:5%;
 }
 
 .links li {
@@ -51,7 +51,7 @@
 }
 
   #jobs {
-    margin-top:100%;
+    margin-top:80%;
     z-index:10;
     overflow: auto;
     position:relative;

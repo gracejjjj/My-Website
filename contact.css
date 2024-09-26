@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
 #wrapper {
     position:fixed;
     z-index:11;
@@ -53,51 +49,34 @@ html {
   .links .active button{
     border: 2px solid white;
   }
-  
-  #about-me-images {
-    margin-top: 80%;
+
+  #contactinfo {
+    margin-top:15%;
+    margin-bottom:5%;
+    margin-left:5%;
+    margin-right:5%;
+    padding:3%;
     z-index:10;
-    overflow: auto;
     background: rgba(250,250,250,.7);
     background-repeat: none;
   }
-  
-  #intro p{
-    margin-left:80px;
-    margin-right:80px;
-    font-size: 120%;
-    line-height: 140%;
-  }
-  
-  .snippet {
-    background-color:rgba(250,250,250,.9);
-    margin-top:50px;
-    margin-bottom:50px;
-    margin-right:100px;
-    margin-left:100px;
+
+  .contact {
+    left: 50%;
+    background:rgba(250,250,250,.9);
+    padding: 3%;
+    margin:5%;
     overflow:hidden;
   }
-  
-  .snippet img {
-    margin-top:30px;
-    margin-left: 30px;
-    margin-right:30px;
-    margin-bottom: 30px;
+
+  .contact img {
+    width: 10%;
+    height: auto;
     float:left;
-    height:auto;
-    width:50%;
   }
-  
-  .snippet p {
-    padding:20px;
-    position: relative;
-    line-height: 140%;
-    padding-bottom:50px;
+
+  .contact a {
+    margin-left:5%;
+    text-align: center;
+    font-size: 200%;
   }
-  
-  #cooking img {
-    width:30%;
-    height:auto;
-    margin:30px;
-  }
-  
