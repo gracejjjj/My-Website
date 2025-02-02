@@ -65,9 +65,8 @@
     overflow:hidden;
   }
 
-  #ra img {
-    width: 10%;
-    height: auto;
+  #gnu {
+    width:30%;
   }
 
   .job img {
@@ -76,7 +75,7 @@
     margin-right:30px;
     margin-bottom: 30px;
     float:inline-start;
-    width:30%;
+    width:40%;
     height:auto;
   }
 
