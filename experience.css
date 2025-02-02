@@ -65,6 +65,11 @@
     overflow:hidden;
   }
 
+  #ra img {
+    width: 10%;
+    height: auto;
+  }
+
   .job img {
     margin-top:45px;
     margin-left: 50px;
