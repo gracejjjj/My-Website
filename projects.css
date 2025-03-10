@@ -149,3 +149,15 @@
   padding-bottom:30px;
   color: rgb(4, 0, 255)
 }
+
+#seminar img {
+  width:40%;
+  height:auto;
+}
+
+#seminar p{
+  position: relative;
+  line-height: 140%;
+  margin-left:47%;
+  margin-right:100px;
+}
